@@ -72,11 +72,36 @@ p {
   animation: forward 1s linear 1 forwards;
 }
 
+.vanilla-fudge {
+  top: 70px;
+  left: 725px;
+  max-width: 140px;
+  z-index: 2;
+  animation: forward 1s linear 1 forwards;
+}
+
 .chocolate-chip {
   top: 140px;
   left: 735px;
   max-width: 140px;
   z-index: 5;
+  animation: forward 1s linear 1 forwards;
+}
+
+.mint-chip {
+  top: 315px;
+  left: 735px;
+  max-width: 127px;
+  z-index: 5;
+  animation: forward 1s linear 1 forwards;
+}
+
+.cone {
+  top: 315px;
+  left: 735px;
+  max-width: 127px;
+  z-index: 5;
+  animation: forward 1s linear 1 forwards;
 }
 
 @keyframes forward {
