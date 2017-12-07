@@ -15,7 +15,7 @@ html {
   transition: all 3s linear 5s;
 }
 
-@@keyframes blur {
+@keyframes blur {
 
   0% {
     filter: blur(0);
@@ -83,7 +83,7 @@ p {
 
 }
 
-@@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 90em) {
 
   h1 {
     left: 215px;
