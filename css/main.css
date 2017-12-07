@@ -1,3 +1,51 @@
 html {
   font-family: 'Fredoka One', cursive;
 }
+
+.content {
+  border-top: 8px solid #b3fbff;
+  border-bottom: 8px solid #b3fbff;
+  max-height: 500px;
+  background-image: repeating-linear-gradient(-33deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+}
+
+.text {
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, .3)
+  animation: blur 1s linear 1;
+  transition: all 3s linear 5s;
+}
+
+@@keyframes blur {
+
+  0% {
+    filter: blur(0);
+    filter: opacity(0);
+  }
+
+  50% {
+    filter:blur(10px);
+    filter: opacity(25%);
+  }
+
+  100% {
+    filter: blur(0);
+    filter: opacity(100%);
+  }
+
+}
+
+h1 {
+  color: #990073;
+  top: 185px;
+  left: 57px;
+  transform: rotate(-5deg);
+  max-width: 19em;
+}
+
+p {
+  color: #c09;
+  top: 185px;
+  left: 57px;
+  transform: rotate(-5deg);
+  max-width: 19em;
+}
