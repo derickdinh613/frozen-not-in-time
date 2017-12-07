@@ -23,7 +23,7 @@ html {
   }
 
   50% {
-    filter:blur(10px);
+    filter: blur(10px);
     filter: opacity(25%);
   }
 
@@ -48,6 +48,14 @@ p {
   left: 57px;
   transform: rotate(-5deg);
   max-width: 19em;
+}
+
+.btn-ghost {
+  color: #c09;
+  border: 3px solid #990073;
+  top: 322px;
+  left: 57px;
+  border-radius: 5px;
 }
 
 .btn-ghost:hover {
