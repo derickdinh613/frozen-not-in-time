@@ -49,3 +49,72 @@ p {
   transform: rotate(-5deg);
   max-width: 19em;
 }
+
+.btn-ghost:hover {
+  color: #c09;
+  border: 3px solid #990073;
+  background: #b3fbff;
+}
+
+.cherry {
+  top: 20px;
+  left: 770px;
+  max-width: 140px;
+  z-index: 3;
+  animation: forward 1s linear 1 forwards;
+}
+
+.chocolate-chip {
+  top: 140px;
+  left: 735px;
+  max-width: 140px;
+  z-index: 5;
+}
+
+@keyframes forward {
+
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(70px);
+  }
+
+}
+
+@@media only screen and (min-width: 90em) {
+
+  h1 {
+    left: 215px;
+  }
+
+  p {
+    left: 215px;
+  }
+
+  .btn {
+    left: 215px;
+  }
+
+  .cherry {
+    left: 280px;
+  }
+
+  .vanilla-fudge {
+    left: 945px;
+  }
+
+  .chocolate-chip {
+    left: 945px;
+  }
+
+  .mint-chip {
+    left: 948px;
+  }
+
+  .cone {
+    left: 945px;
+  }
+
+}
